@@ -1,7 +1,7 @@
-#ifndef DISPLAY_HPP
-#define DISPLAY_HPP
+#ifndef DISPLAY_H
+#define DISPLAY_H
 
-#include "SDL2/SDL.h"
+#include <SDL2/SDL.h>
 #include <string>
 
 class display
@@ -17,6 +17,6 @@ private:
 	bool m_isClosed;
 };
 
-#endif // !DISPLAY_HPP
+#endif // !DISPLAY_H
 
 
